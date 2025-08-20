@@ -1,13 +1,11 @@
 {
   "expo": {
-    "name": "medu-llm-offline",
-    "slug": "medu-llm-offline",
-    "assetBundlePatterns": [
-      "assets/*"
-    ],
+    "name": "Medu Chat",
+    "slug": "Medu Chat",
+    "assetBundlePatterns": ["assets/*"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon-prod.png",
     "scheme": "medullmoffline",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -20,8 +18,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon-prod.png",
+        "backgroundColor": "#0f1115"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.jorge_assaf01.medullmoffline"
@@ -36,10 +34,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/icon-prod.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0f1115"
         }
       ]
     ],
